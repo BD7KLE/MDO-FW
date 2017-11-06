@@ -9,5 +9,5 @@ sudo stm32flash -v -w VHF-3.0.hex -g 0x0 -R -i 23,-22,22:-23,22 /dev/ttyAMA0
 sudo systemctl start mmdvmhost.timer
 sudo systemctl restart mmdvmhost.service
 sudo rm VHF-3.0.hex
-sudo rm up.sh
+sudo rm upV.sh
 sudo mount -o remount,ro /
