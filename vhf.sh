@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo mount -o remount,rw /
 #Install Required Software
-wget https://github.com/BD7KLE/MDO-FW/raw/master/VHF2018-2-26.hex
+wget https://github.com/BD7KLE/MDO-FW/raw/master/VHF2018-6-21.hex
 # DV-Mega Mods
 sudo systemctl stop mmdvmhost.timer
 sudo systemctl stop mmdvmhost.service
